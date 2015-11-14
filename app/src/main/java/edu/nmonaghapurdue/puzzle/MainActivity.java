@@ -37,7 +37,22 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     public void startGame(View view) {
-        Difficultly r  = new Difficultly();
-        r.onCreate(Bundle.EMPTY);
+        setContentView(R.layout.screen_two); // change layout
+
+
+    }
+    public void easyDifficult(View view) {
+      //  setContentView();
+
+    }
+    public void mediumDifficult(View view) {
+ //       setContentView();
+
+    }
+    public void hardDifficult(View view) {
+   //     setContentView();
+    }
+    public void exit(View view) {
+      setContentView(R.layout.activity_main);
     }
 }
