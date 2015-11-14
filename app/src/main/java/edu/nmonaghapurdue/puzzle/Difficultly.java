@@ -1,18 +1,19 @@
 package edu.nmonaghapurdue.puzzle;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-
+/**
+ * Created by Nathanael on 11/14/2015.
+ */
+public class Difficultly extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // change layout
 
     }
 
@@ -37,8 +38,17 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-    public void startGame(View view) {
-        Difficultly r  = new Difficultly();
-        r.onCreate(Bundle.EMPTY);
+    public void easyDifficult(View view) {
+
+    }
+    public void mediumDifficult(View view) {
+
+    }
+    public void hardDifficult(View view) {
+
+    }
+    public void exit(View view) {
+       MainActivity ma = new MainActivity();
+        ma.onCreate(Bundle.EMPTY);
     }
 }
