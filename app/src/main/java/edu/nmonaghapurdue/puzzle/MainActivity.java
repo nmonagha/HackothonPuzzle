@@ -1,5 +1,6 @@
 package edu.nmonaghapurdue.puzzle;
 
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
@@ -206,7 +207,7 @@ public class MainActivity extends AppCompatActivity {
         b2.setBackgroundColor((Color.BLUE));
     }
     public void button3(View view) {
-        Button b3 = (Button) findViewById(R.id.button1);
+        Button b3 = (Button) findViewById(R.id.button3);
         checkShapeColorToChange();
         b3.setBackgroundColor((Color.BLUE));
     }
@@ -216,7 +217,7 @@ public class MainActivity extends AppCompatActivity {
         b4.setBackgroundColor((Color.BLUE));
     }
     public void button5(View view) {
-        Button b5 = (Button) findViewById(R.id.button1);
+        Button b5 = (Button) findViewById(R.id.button5);
         checkShapeColorToChange();
         b5.setBackgroundColor((Color.BLUE));
     }
@@ -239,7 +240,6 @@ public class MainActivity extends AppCompatActivity {
         Button b9 = (Button) findViewById(R.id.button9);
         checkShapeColorToChange();
         b9.setBackgroundColor((Color.BLUE));
-
     }
     public void button10(View view) {
         Button b10 = (Button) findViewById(R.id.button10);
