@@ -1,5 +1,6 @@
 package edu.nmonaghapurdue.puzzle;
 
+import android.graphics.Color;
 import android.widget.Button;
 
 /**
@@ -21,20 +22,39 @@ public class ButtonClass {
     public void checksPutPiece() {
         if (difficulty == 1) {
             if (location == 2 || location == 3 || location == 7 || location == 8 && (picture == 5)) {
-
+                grid[2].setBackgroundColor(Color.CYAN);
+                grid[3].setBackgroundColor(Color.CYAN);
+                grid[7].setBackgroundColor(Color.CYAN);
+                grid[8].setBackgroundColor(Color.CYAN);
+                images[5].setText(Integer.parseInt(images[5].getText() + "") - 1 + "");
             }
             if (picture == 7 && location == 6) {
+                grid[6].setBackgroundColor(Color.BLUE);
+                images[7].setText(Integer.parseInt(images[7].getText() + "") - 1 + "");
 
             }
             if (picture == 6 && (location == 11 || location == 12 || location == 16 || location == 17 || location == 18)) {
-
+                grid[11].setBackgroundColor(Color.GREEN);
+                grid[12].setBackgroundColor(Color.GREEN);
+                grid[16].setBackgroundColor(Color.GREEN);
+                grid[17].setBackgroundColor(Color.GREEN);
+                grid[18].setBackgroundColor(Color.GREEN);
+                images[6].setText(Integer.parseInt(images[6].getText() + "") - 1 + "");
 
             }
             if (picture == 4 && (location == 4 || location == 9 || location == 13 || location == 14)) {
-
+                grid[4].setBackgroundColor(Color.YELLOW);
+                grid[9].setBackgroundColor(Color.YELLOW);
+                grid[13].setBackgroundColor(Color.YELLOW);
+                grid[14].setBackgroundColor(Color.YELLOW);
+                images[4].setText(Integer.parseInt(images[4].getText() + "") - 1 + "");
             }
             if (picture == 4 && (location == 10 || location == 15 || location == 19 || location == 20)) {
-
+                grid[10].setBackgroundColor(Color.BLACK);
+                grid[15].setBackgroundColor(Color.BLACK);
+                grid[19].setBackgroundColor(Color.BLACK);
+                grid[20].setBackgroundColor(Color.BLACK);
+                images[4].setText(Integer.parseInt(images[4].getText() + "") - 1 + "");
             }
 
         }

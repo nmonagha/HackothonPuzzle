@@ -363,8 +363,20 @@ public class MainActivity extends AppCompatActivity {
         picture = 11;
     }
     public void submit(View view) {
+        Button defaultColor = (Button) findViewById(R.id.exit);
+        Drawable r = defaultColor.getBackground();
         ButtonClass b = new ButtonClass(location ,difficultly ,picture, grid, images);
         b.checksPutPiece();
+        int q = 0;
+        for (int i = 1; i < 26; i++) {
+            if (r.equals(grid[i].getBackground())) {
+                q = -1;
+                break;
+            }
+        }
+        if (q == 0) {
+            setContentView(R.layout.win);
+        }
     }
 
     public void exit(View view) {
