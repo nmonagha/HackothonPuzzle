@@ -18,207 +18,225 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="60dp"
-            android:background="#000000"
-            >
+            android:background="#000000">
 
             <Button
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
                 android:id="@+id/c1"
-                android:text="CELL1"
-                android:onClick="cell1"
-                android:height="50dp"
+                android:text="1"
+                android:onClick="1"
+                android:height="75dp"
                 android:width="75dp"
-                android:gravity="center">
-            </Button>
+                android:gravity="center"/>
 
             <Button
                 android:id="@+id/c2"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL2"
-                android:onClick="cell2"
-                android:width="75dp"></Button>
+                android:text="2"
+                android:onClick="2"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c3"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:onClick="cell3"
-                android:text="CELL3"
-                android:width="75dp"></Button>
+                android:onClick="3"
+                android:text="3"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c4"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL4"
-                android:onClick="cell4"
-                android:width="75dp"></Button>
+                android:text="4"
+                android:onClick="4"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c5"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL5"
-                android:onClick="cell5"
-                android:width="75dp"></Button>
+                android:text="5"
+                android:onClick="5"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c6"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL6"
-                android:onClick="cell6"
-                android:height="50dp"
+                android:text="6"
+                android:onClick="6"
+                android:height="75dp"
                 android:gravity="center"
-                android:width="75dp"/>
+                android:width="75dp" />
 
             <Button
                 android:id="@+id/c7"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL7"
-                android:onClick="cell7"
-                android:width="75dp"></Button>
+                android:text="7"
+                android:onClick="7"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c8"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL8"
-                android:onClick="cell8"
+                android:text="8"
+                android:onClick="8"
                 android:gravity="center"
-                android:width="75dp"></Button>
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c9"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL9"
-                android:onClick="cell9"
-                android:width="75dp"></Button>
+                android:text="9"
+                android:onClick="9"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c10"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL10"
-                android:onClick="cell10"
-                android:width="75dp"></Button>
+                android:text="10"
+                android:onClick="10"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c11"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL11"
-                android:onClick="cell11"
-                android:height="50dp"
+                android:text="11"
+                android:onClick="11"
+                android:height="75dp"
                 android:gravity="center"
-                android:width="75dp"></Button>
+                android:width="75dp"/>
             <Button
                 android:id="@+id/c12"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL12"
-                android:onClick="cell2"
-                android:width="75dp"></Button>
+                android:text="12"
+                android:onClick="12"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c13"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL13"
-                android:onClick="cell13"
-                android:width="75dp"></Button>
+                android:text="13"
+                android:onClick="13"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c14"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL14"
-                android:onClick="cell14"
-                android:width="75dp"></Button>
+                android:text="14"
+                android:onClick="14"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c15"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL15"
-                android:onClick="cell15"
-                android:width="75dp"></Button>
+                android:text="15"
+                android:onClick="15"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c16"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL16"
-                android:onClick="cell16"
-                android:height="50dp"
+                android:text="16"
+                android:onClick="16"
+                android:height="75dp"
                 android:gravity="center"
-                android:width="75dp"></Button>
+                android:width="75dp"/>
 
             <Button
                 android:id="@+id/c17"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL17"
-                android:onClick="cell17"
-                android:width="75dp"></Button>
+                android:text="17"
+                android:onClick="17"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c18"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL18"
-                android:onClick="cell18"
-                android:width="75dp"></Button>
+                android:text="18"
+                android:onClick="18"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c19"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL19"
-                android:onClick="cell19"
-                android:width="75dp"></Button>
+                android:text="19"
+                android:onClick="19"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c20"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL20"
-                android:onClick="cell20"
-                android:width="75dp"></Button>
+                android:text="20"
+                android:onClick="20"
+                android:width="75dp"
+                android:height="75dp"/>
 
             <Button
                 android:id="@+id/c21"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL21"
-                android:onClick="cell21"
-                android:height="50dp"
+                android:text="21"
+                android:onClick="21"
+                android:height="75dp"
                 android:gravity="center"
-                android:width="75dp"></Button>
+                android:width="75dp"/>
             <Button
                 android:id="@+id/c22"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL22"
-                android:onClick="cell22"
-                android:width="75dp"></Button>
+                android:text="22"
+                android:onClick="22"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c23"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL23"
-                android:onClick="cell23"
-                android:width="75dp"></Button>
+                android:text="23"
+                android:onClick="23"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c24"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL24"
-                android:onClick="cell24"
-                android:width="75dp"></Button>
+                android:text=" 24"
+                android:onClick=" 24"
+                android:width="75dp"
+                android:height="75dp"/>
             <Button
                 android:id="@+id/c25"
                 android:layout_height="wrap_content"
                 android:layout_width="75dp"
-                android:text="CELL25"
-                android:onClick="cell25"
-                android:width="75dp"></Button>
+                android:text="25"
+                android:onClick="25"
+                android:width="75dp"
+                android:height="75dp"/>
 
             </GridLayout>
 
@@ -230,6 +248,6 @@
             android:id="@+id/exit"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"/>
     </RelativeLayout>
 </LinearLayout>
