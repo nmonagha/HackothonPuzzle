@@ -202,55 +202,55 @@ public class MainActivity extends AppCompatActivity {
     }
     public void button2(View view) {
         Button b2 = (Button) findViewById(R.id.button2);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b2);
     }
     public void button3(View view) {
         Button b3 = (Button) findViewById(R.id.button3);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b3);
     }
     public void button4(View view) {
         Button b4 = (Button) findViewById(R.id.button4);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b4);
     }
 
     public void button5(View view) {
         Button b5 = (Button) findViewById(R.id.button5);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b5);
     }
 
     public void button6(View view) {
         Button b6 = (Button) findViewById(R.id.button6);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b6);
     }
 
     public void button7(View view) {
         Button b7 = (Button) findViewById(R.id.button7);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b7);
     }
     public void button8(View view) {
         Button b8 = (Button) findViewById(R.id.button8);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b8);
     }
     public void button9(View view) {
         Button b9 = (Button) findViewById(R.id.button9);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b9);
     }
     public void button10(View view) {
         Button b10 = (Button) findViewById(R.id.button10);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b10);
     }
     public void button11(View view) {
         Button b11 = (Button) findViewById(R.id.button11);
-        checkShapeColorToChange();
+        //checkShapeColorToChange();
         onClick(b11);
     }
 
@@ -258,9 +258,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
+    int x = 0;
     public void onClick(Button button) {
+        x++;
+        if (x % 2 == 1)
         button.setTextColor( Color.BLUE );
+        else
+            button.setTextColor(Color.BLACK);
     }
 
     public void checkColorToChange() {
@@ -312,7 +316,7 @@ public class MainActivity extends AppCompatActivity {
         Button b11 = (Button) findViewById(R.id.button11);
         Button[] arr = {b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11};
         for (int i = 0; i < 10; i++) {
-            arr[i].setBackgroundDrawable(r);
+            onClick(arr[i]);
         }
     }
 }
