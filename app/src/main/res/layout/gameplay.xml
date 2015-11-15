@@ -18,7 +18,8 @@
             android:background="#000000"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
+            android:layout_alignParentStart="true"
+            android:id="@+id/gridLayout">
 
             <Button
                 android:layout_height="wrap_content"
@@ -238,6 +239,11 @@
                 android:width="75dp"
                 android:height="75dp"/>
 
+
+
+
+
+
             </GridLayout>
 
         <Button
@@ -249,6 +255,13 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
+
+        <ImageSwitcher
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageSwitcher"
+            android:layout_below="@+id/gridLayout"
+            android:layout_centerHorizontal="true" />
 
     </RelativeLayout>
 
