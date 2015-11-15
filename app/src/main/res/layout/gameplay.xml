@@ -26,7 +26,7 @@
                 android:layout_width="75dp"
                 android:id="@+id/c1"
                 android:text="1"
-                android:onClick="1"
+                android:onClick="c1"
                 android:height="75dp"
                 android:width="75dp"
                 android:gravity="center"/>

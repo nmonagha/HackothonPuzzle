@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,42 +16,50 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
     public void startGame(View view) {
         setContentView(R.layout.screen_two); // change layout
 
-
     }
     public void easyDifficult(View view) {
-      //  setContentView();
+        setContentView(R.layout.gameplay);
+        Puzzle1 p1 = new Puzzle1();
+        Button c1 = (Button) findViewById(R.id.c1);
+        c1.setText("");
+        TextView tv1 = (TextView) c1;
+        tv1.setText("");
+        Button c2 = (Button) findViewById(R.id.c2);
+        Button c3 = (Button) findViewById(R.id.c3);
+        Button c4 = (Button) findViewById(R.id.c4);
+        Button c5 = (Button) findViewById(R.id.c5);
+        Button c6 = (Button) findViewById(R.id.c6);
+        Button c7 = (Button) findViewById(R.id.c7);
+        Button c8 = (Button) findViewById(R.id.c8);
+        Button c9 = (Button) findViewById(R.id.c9);
+        Button c10 = (Button) findViewById(R.id.c10);
+        Button c11 = (Button) findViewById(R.id.c11);
+        Button c12 = (Button) findViewById(R.id.c12);
+        Button c13 = (Button) findViewById(R.id.c13);
+        Button c14 = (Button) findViewById(R.id.c14);
+        Button c15 = (Button) findViewById(R.id.c15);
+        Button c16 = (Button) findViewById(R.id.c16);
+        Button c17 = (Button) findViewById(R.id.c17);
+        Button c18 = (Button) findViewById(R.id.c18);
+        Button c19 = (Button) findViewById(R.id.c19);
+        Button c20 = (Button) findViewById(R.id.c20);
+        Button c21 = (Button) findViewById(R.id.c21);
+        Button c22 = (Button) findViewById(R.id.c22);
+        Button c23 = (Button) findViewById(R.id.c23);
+        Button c24 = (Button) findViewById(R.id.c24);
+        Button c25 = (Button) findViewById(R.id.c25);
+
 
     }
     public void mediumDifficult(View view) {
- //       setContentView();
+        setContentView(R.layout.gameplay);
 
     }
     public void hardDifficult(View view) {
-   //     setContentView();
+        setContentView(R.layout.gameplay);
     }
     public void exit(View view) {
       setContentView(R.layout.activity_main);
