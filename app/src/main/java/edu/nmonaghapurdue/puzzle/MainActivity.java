@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void easyDifficult(View view) {
-
         setContentView(R.layout.gameplay);
         Button c1 = (Button) findViewById(R.id.c1);
         c1.setVisibility(View.GONE);
@@ -196,6 +195,62 @@ public class MainActivity extends AppCompatActivity {
         checkColorToChange();
         c25.setBackgroundColor((Color.BLUE));
     }
+    public void button1(View view) {
+        Button b1 = (Button) findViewById(R.id.button1);
+        checkShapeColorToChange();
+        b1.setBackgroundColor((Color.BLUE));
+    }
+    public void button2(View view) {
+        Button b2 = (Button) findViewById(R.id.button2);
+        checkShapeColorToChange();
+        b2.setBackgroundColor((Color.BLUE));
+    }
+    public void button3(View view) {
+        Button b3 = (Button) findViewById(R.id.button1);
+        checkShapeColorToChange();
+        b3.setBackgroundColor((Color.BLUE));
+    }
+    public void button4(View view) {
+        Button b4 = (Button) findViewById(R.id.button4);
+        checkShapeColorToChange();
+        b4.setBackgroundColor((Color.BLUE));
+    }
+    public void button5(View view) {
+        Button b5 = (Button) findViewById(R.id.button1);
+        checkShapeColorToChange();
+        b5.setBackgroundColor((Color.BLUE));
+    }
+    public void button6(View view) {
+        Button b6 = (Button) findViewById(R.id.button6);
+        checkShapeColorToChange();
+        b6.setBackgroundColor((Color.BLUE));
+    }
+    public void button7(View view) {
+        Button b7 = (Button) findViewById(R.id.button7);
+        checkShapeColorToChange();
+        b7.setBackgroundColor((Color.BLUE));
+    }
+    public void button8(View view) {
+        Button b8 = (Button) findViewById(R.id.button8);
+        checkShapeColorToChange();
+        b8.setBackgroundColor((Color.BLUE));
+    }
+    public void button9(View view) {
+        Button b9 = (Button) findViewById(R.id.button9);
+        checkShapeColorToChange();
+        b9.setBackgroundColor((Color.BLUE));
+
+    }
+    public void button10(View view) {
+        Button b10 = (Button) findViewById(R.id.button10);
+        checkShapeColorToChange();
+        b10.setBackgroundColor((Color.BLUE));
+    }
+    public void button11(View view) {
+        Button b11 = (Button) findViewById(R.id.button11);
+        checkShapeColorToChange();
+        b11.setBackgroundColor((Color.BLUE));
+    }
 
     public void exit(View view) {
         setContentView(R.layout.activity_main);
@@ -231,6 +286,25 @@ public class MainActivity extends AppCompatActivity {
         Button c25 = (Button) findViewById(R.id.c25);
         Button[] arr = {c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23, c24, c25};
         for (int i = 0; i < 25; i++) {
+            arr[i].setBackgroundDrawable(r);
+        }
+    }
+    public void checkShapeColorToChange() {
+        Button defaultColor = (Button) findViewById(R.id.exit);
+        Drawable r = defaultColor.getBackground();
+        Button b1 = (Button) findViewById(R.id.button1);
+        Button b2 = (Button) findViewById(R.id.button2);
+        Button b3 = (Button) findViewById(R.id.button3);
+        Button b4 = (Button) findViewById(R.id.button4);
+        Button b5 = (Button) findViewById(R.id.button5);
+        Button b6 = (Button) findViewById(R.id.button6);
+        Button b7 = (Button) findViewById(R.id.button7);
+        Button b8 = (Button) findViewById(R.id.button8);
+        Button b9 = (Button) findViewById(R.id.button9);
+        Button b10 = (Button) findViewById(R.id.button10);
+        Button b11 = (Button) findViewById(R.id.button11);
+        Button[] arr = {b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11};
+        for (int i = 0; i < 10; i++) {
             arr[i].setBackgroundDrawable(r);
         }
     }
