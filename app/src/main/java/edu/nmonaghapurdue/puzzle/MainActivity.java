@@ -117,8 +117,6 @@ public class MainActivity extends AppCompatActivity {
         b1.setText(1 + "");
         Button b10 = (Button) findViewById(R.id.button10);
         b10.setText(1 + "");
-        Button b7 = (Button) findViewById(R.id.button7);
-        b7.setText(1 + "");
         Button b4 = (Button) findViewById(R.id.button4);
         b4.setText(1 + "");
 
