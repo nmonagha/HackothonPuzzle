@@ -245,6 +245,7 @@
             android:layout_height="wrap_content"
             android:text="EXIT"
             android:id="@+id/exit"
+            android:onClick="exit"
             android:layout_gravity="bottom|right"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
