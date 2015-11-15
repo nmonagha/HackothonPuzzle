@@ -37,17 +37,88 @@ public class MainActivity extends AppCompatActivity {
         c21.setVisibility(View.GONE);
         Button c25 = (Button) findViewById(R.id.c25);
         c25.setVisibility(View.GONE);
+
+        Button b7 = (Button) findViewById(R.id.button7);
+        b7.setText(1 + "");
+        Button b5 = (Button) findViewById(R.id.button5);
+        b5.setText(1 + "");
+        Button b6 = (Button) findViewById(R.id.button6);
+        b6.setText(1 + "");
+        Button b4 = (Button) findViewById(R.id.button4);
+        b4.setText(1 + "");
+        b4.setText(1 + "");
+        Button b2 = (Button) findViewById(R.id.button2);
+        b2.setText(1 + "");
     }
 
     public void mediumDifficult(View view) {
         setContentView(R.layout.gameplay);
         difficultly = 2;
+        Button c1 = (Button) findViewById(R.id.c1);
+        c1.setVisibility(View.GONE);
+        Button c2 = (Button) findViewById(R.id.c2);
+        c2.setVisibility(View.GONE);
+        Button c3 = (Button) findViewById(R.id.c3);
+        c3.setVisibility(View.GONE);
+        Button c4 = (Button) findViewById(R.id.c4);
+        c4.setVisibility(View.GONE);
+        Button c6 = (Button) findViewById(R.id.c6);
+        c6.setVisibility(View.GONE);
+        Button c8 = (Button) findViewById(R.id.c8);
+        c8.setVisibility(View.GONE);
+        Button c22 = (Button) findViewById(R.id.c22);
+        c22.setVisibility(View.GONE);
+        Button c23 = (Button) findViewById(R.id.c23);
+        c23.setVisibility(View.GONE);
+        Button c24 = (Button) findViewById(R.id.c24);
+        c24.setVisibility(View.GONE);
+        Button c25 = (Button) findViewById(R.id.c25);
+        c25.setVisibility(View.GONE);
+
+
+        Button b9 = (Button) findViewById(R.id.button9);
+        b9.setText(1 + "");
+        b9.setText(1 + "");
+        Button b8 = (Button) findViewById(R.id.button8);
+        b8.setText(1 + "");
+        Button b4 = (Button) findViewById(R.id.button4);
+        b4.setText(1 + "");
+        Button b7 = (Button) findViewById(R.id.button7);
+        b7.setText(1 + "");
+
 
     }
 
     public void hardDifficult(View view) {
         setContentView(R.layout.gameplay);
         difficultly = 3;
+        Button c5 = (Button) findViewById(R.id.c5);
+        c5.setVisibility(View.GONE);
+        Button c6 = (Button) findViewById(R.id.c6);
+        c6.setVisibility(View.GONE);
+        Button c9 = (Button) findViewById(R.id.c9);
+        c9.setVisibility(View.GONE);
+        Button c10 = (Button) findViewById(R.id.c10);
+        c10.setVisibility(View.GONE);
+        Button c13 = (Button) findViewById(R.id.c13);
+        c13.setVisibility(View.GONE);
+        Button c19 = (Button) findViewById(R.id.c19);
+        c19.setVisibility(View.GONE);
+
+
+        Button b9 = (Button) findViewById(R.id.button9);
+        b9.setText(1 + "");
+        Button b3 = (Button) findViewById(R.id.button3);
+        b3.setText(1 + "");
+        Button b1 = (Button) findViewById(R.id.button1);
+        b1.setText(1 + "");
+        Button b10 = (Button) findViewById(R.id.button10);
+        b10.setText(1 + "");
+        Button b7 = (Button) findViewById(R.id.button7);
+        b7.setText(1 + "");
+        Button b4 = (Button) findViewById(R.id.button4);
+        b4.setText(1 + "");
+
     }
 
     public void c1(View view) {
