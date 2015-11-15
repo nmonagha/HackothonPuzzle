@@ -278,60 +278,71 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button1"
-                        android:background="@drawable/line1"/>
+                        android:background="@drawable/line1"
+                        android:onClick="button1"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button2"
-                        android:background="@drawable/verticalline"/>
+                        android:background="@drawable/verticalline"
+                        android:onClick="button2"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button3"
-                        android:background="@drawable/phone"/>
+                        android:background="@drawable/phone"
+                        android:onClick="button3"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button4"
-                        android:background="@drawable/lshape"/>
+                        android:background="@drawable/lshape"
+                        android:onClick="button4"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button5"
-                        android:background="@drawable/singlesquare"/>
+                        android:background="@drawable/singlesquare"
+                        android:onClick="button5"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button6"
-                        android:background="@drawable/truck"/>
+                        android:background="@drawable/truck"
+                        android:onClick="button6"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button7"
-                        android:background="@drawable/foursquares"/>
+                        android:background="@drawable/foursquares"
+                        android:onClick="button7"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button8"
-                        android:background="@drawable/tblock"/>
+                        android:background="@drawable/tblock"
+                        android:onClick="button8"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button9"
-                        android:background="@drawable/shortl"/>
+                        android:background="@drawable/shortl"
+                        android:onClick="button9"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button10"
-                        android:background="@drawable/shortline"/>
+                        android:background="@drawable/shortline"
+                        android:onClick="button10"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button11"
-                        android:background="@drawable/backlshape"/>
+                        android:background="@drawable/backlshape"
+                        android:onClick="button11"/>
 
                 </LinearLayout>
             </HorizontalScrollView>
