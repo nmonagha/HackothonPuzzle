@@ -269,7 +269,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_below="@+id/gridLayout"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true">
@@ -277,73 +277,74 @@
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B1"
                         android:id="@+id/button1"
                         android:background="@drawable/line1"/>
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B2"
                         android:id="@+id/button2"
                         android:background="@drawable/verticalline"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B3"
                         android:id="@+id/button3"
                         android:background="@drawable/phone"/>
+
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B4"
                         android:id="@+id/button4"
                         android:background="@drawable/lshape"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B5"
                         android:id="@+id/button5"
                         android:background="@drawable/singlesquare"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B6"
                         android:id="@+id/button6"
                         android:background="@drawable/truck"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B7"
                         android:id="@+id/button7"
                         android:background="@drawable/foursquares"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B8"
                         android:id="@+id/button8"
                         android:background="@drawable/tblock"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B9"
                         android:id="@+id/button9"
                         android:background="@drawable/shortl"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B10"
                         android:id="@+id/button10"
                         android:background="@drawable/shortline"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
-                        android:text="B11"
                         android:id="@+id/button11"
                         android:background="@drawable/backlshape"/>
 
                 </LinearLayout>
             </HorizontalScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/exit"
+            android:layout_toStartOf="@+id/exit" />
 
     </RelativeLayout>
 
