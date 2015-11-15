@@ -203,12 +203,12 @@ public class MainActivity extends AppCompatActivity {
     public void button2(View view) {
         Button b2 = (Button) findViewById(R.id.button2);
         checkShapeColorToChange();
-        b2.setBackgroundColor((Color.BLUE));
+        //b2.setBackgroundColor((Color.BLUE));
     }
     public void button3(View view) {
         Button b3 = (Button) findViewById(R.id.button1);
         checkShapeColorToChange();
-        b3.setBackgroundColor((Color.BLUE));
+        //b3.setBackgroundColor((Color.BLUE));
     }
     public void button4(View view) {
         Button b4 = (Button) findViewById(R.id.button4);

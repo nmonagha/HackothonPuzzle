@@ -279,20 +279,24 @@
                         android:layout_height="80dp"
                         android:id="@+id/button1"
                         android:background="@drawable/line1"
-                        android:onClick="button1"/>
+                        android:text="0"
+                        android:onClick="button1" />
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button2"
                         android:background="@drawable/verticalline"
-                        android:onClick="button2"/>
+                        android:text="0"
+                        android:onClick="button2"
+                        android:textColor="#FFFFFF" />
 
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button3"
                         android:background="@drawable/phone"
+                        android:text="0"
                         android:onClick="button3"/>
 
                     <Button
@@ -300,48 +304,56 @@
                         android:layout_height="80dp"
                         android:id="@+id/button4"
                         android:background="@drawable/lshape"
+                        android:text="0"
                         android:onClick="button4"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button5"
                         android:background="@drawable/singlesquare"
+                        android:text="0"
                         android:onClick="button5"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button6"
                         android:background="@drawable/truck"
+                        android:text="0"
                         android:onClick="button6"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button7"
                         android:background="@drawable/foursquares"
+                        android:text="0"
                         android:onClick="button7"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button8"
                         android:background="@drawable/tblock"
+                        android:text="0"
                         android:onClick="button8"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button9"
                         android:background="@drawable/shortl"
+                        android:text="0"
                         android:onClick="button9"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button10"
                         android:background="@drawable/shortline"
+                        android:text="0"
                         android:onClick="button10"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button11"
                         android:background="@drawable/backlshape"
+                        android:text="0"
                         android:onClick="button11"/>
 
                 </LinearLayout>
