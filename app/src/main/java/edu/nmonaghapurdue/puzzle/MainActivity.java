@@ -198,62 +198,69 @@ public class MainActivity extends AppCompatActivity {
     }
     public void button1(View view) {
         Button b1 = (Button) findViewById(R.id.button1);
-        checkShapeColorToChange();
-        b1.setBackgroundColor((Color.BLUE));
+        onClick(b1);
     }
     public void button2(View view) {
         Button b2 = (Button) findViewById(R.id.button2);
         checkShapeColorToChange();
-        //b2.setBackgroundColor((Color.BLUE));
+        onClick(b2);
     }
     public void button3(View view) {
         Button b3 = (Button) findViewById(R.id.button3);
         checkShapeColorToChange();
-        //b3.setBackgroundColor((Color.BLUE));
+        onClick(b3);
     }
     public void button4(View view) {
         Button b4 = (Button) findViewById(R.id.button4);
         checkShapeColorToChange();
-        b4.setBackgroundColor((Color.BLUE));
+        onClick(b4);
     }
+
     public void button5(View view) {
         Button b5 = (Button) findViewById(R.id.button5);
         checkShapeColorToChange();
-        b5.setBackgroundColor((Color.BLUE));
+        onClick(b5);
     }
+
     public void button6(View view) {
         Button b6 = (Button) findViewById(R.id.button6);
         checkShapeColorToChange();
-        b6.setBackgroundColor((Color.BLUE));
+        onClick(b6);
     }
+
     public void button7(View view) {
         Button b7 = (Button) findViewById(R.id.button7);
         checkShapeColorToChange();
-        b7.setBackgroundColor((Color.BLUE));
+        onClick(b7);
     }
     public void button8(View view) {
         Button b8 = (Button) findViewById(R.id.button8);
         checkShapeColorToChange();
-        b8.setBackgroundColor((Color.BLUE));
+        onClick(b8);
     }
     public void button9(View view) {
         Button b9 = (Button) findViewById(R.id.button9);
         checkShapeColorToChange();
-        b9.setBackgroundColor((Color.BLUE));
+        onClick(b9);
     }
     public void button10(View view) {
         Button b10 = (Button) findViewById(R.id.button10);
         checkShapeColorToChange();
-        b10.setBackgroundColor((Color.BLUE));
+        onClick(b10);
     }
     public void button11(View view) {
         Button b11 = (Button) findViewById(R.id.button11);
         checkShapeColorToChange();
-        b11.setBackgroundColor((Color.BLUE));
+        onClick(b11);
     }
 
     public void exit(View view) {
         setContentView(R.layout.activity_main);
+    }
+
+
+    public void onClick(Button button) {
+        button.setTextColor( Color.BLUE );
     }
 
     public void checkColorToChange() {
