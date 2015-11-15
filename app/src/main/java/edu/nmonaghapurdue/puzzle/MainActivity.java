@@ -22,15 +22,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void easyDifficult(View view) {
         setContentView(R.layout.gameplay);
-        Puzzle1 p1 = new Puzzle1();
         Button c1 = (Button) findViewById(R.id.c1);
-        c1.setText("");
-        TextView tv1 = (TextView) c1;
-        tv1.setText("");
+        c1.setVisibility(View.GONE);
         Button c2 = (Button) findViewById(R.id.c2);
         Button c3 = (Button) findViewById(R.id.c3);
         Button c4 = (Button) findViewById(R.id.c4);
         Button c5 = (Button) findViewById(R.id.c5);
+        c5.setVisibility(View.GONE);
         Button c6 = (Button) findViewById(R.id.c6);
         Button c7 = (Button) findViewById(R.id.c7);
         Button c8 = (Button) findViewById(R.id.c8);
@@ -47,10 +45,12 @@ public class MainActivity extends AppCompatActivity {
         Button c19 = (Button) findViewById(R.id.c19);
         Button c20 = (Button) findViewById(R.id.c20);
         Button c21 = (Button) findViewById(R.id.c21);
+        c21.setVisibility(View.GONE);
         Button c22 = (Button) findViewById(R.id.c22);
         Button c23 = (Button) findViewById(R.id.c23);
         Button c24 = (Button) findViewById(R.id.c24);
         Button c25 = (Button) findViewById(R.id.c25);
+        c25.setVisibility(View.GONE);
 
 
     }
