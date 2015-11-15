@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private int difficultly = 0;
     private int picture = 0;
     private int location = 0;
+    private Button[] grid;
+    private Button[] images;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -362,7 +365,8 @@ public class MainActivity extends AppCompatActivity {
         picture = 11;
     }
     public void submit(View view) {
-        ButtonClass b = new ButtonClass(location ,difficultly ,picture);
+        ButtonClass b = new ButtonClass(location ,difficultly ,picture, grid, images);
+        b.checksPutPiece();
     }
 
     public void exit(View view) {
@@ -398,6 +402,7 @@ public class MainActivity extends AppCompatActivity {
         Button c24 = (Button) findViewById(R.id.c24);
         Button c25 = (Button) findViewById(R.id.c25);
         Button[] arr = {c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23, c24, c25};
+        grid = arr;
         for (int i = 0; i < 25; i++) {
             arr[i].setBackgroundDrawable(r);
         }
@@ -415,6 +420,7 @@ public class MainActivity extends AppCompatActivity {
         Button b10 = (Button) findViewById(R.id.button10);
         Button b11 = (Button) findViewById(R.id.button11);
         Button[] arr = {b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11};
+        images = arr;
         for (int i = 0; i < 11; i++) {
             arr[i].setTextColor(Color.WHITE);
         }
