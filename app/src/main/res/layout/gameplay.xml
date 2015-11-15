@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="5"
+            android:rowCount="5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="60dp">
+
+            <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="CELL1"
+                android:height="50dp"
+                android:width="75dp"
+                android:gravity="center"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL2"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL3"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL4"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL5"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL6"
+                android:height="50dp"
+                android:gravity="center"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL7"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL8"
+                android:gravity="center"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL9"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL10"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL11"
+                android:height="50dp"
+                android:gravity="center"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL12"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL13"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL14"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL15"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL16"
+                android:height="50dp"
+                android:gravity="center"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL17"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL18"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL19"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL20"
+                android:width="75dp"></TextView>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL21"
+                android:height="50dp"
+                android:gravity="center"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL22"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL23"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL24"
+                android:width="75dp"></TextView>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="CELL25"
+                android:width="75dp"></TextView>
+
+
+
+
+
+            </GridLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:id="@+id/exit"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>
