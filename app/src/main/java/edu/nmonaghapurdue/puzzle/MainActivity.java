@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         b4.setText(1 + "");
         Button b2 = (Button) findViewById(R.id.button2);
         b2.setText(1 + "");
+        difficultly = 1;
     }
 
     public void mediumDifficult(View view) {
@@ -413,7 +414,7 @@ public class MainActivity extends AppCompatActivity {
         Button c25 = (Button) findViewById(R.id.c25);
         Button[] arr = {c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22, c23, c24, c25};
         grid = arr;
-        for (int i = 0; i < 25; i++) {
+        for (int i = 1; i < 26; i++) {
             arr[i].setBackgroundDrawable(r);
         }
     }
@@ -431,7 +432,7 @@ public class MainActivity extends AppCompatActivity {
         Button b11 = (Button) findViewById(R.id.button11);
         Button[] arr = {b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,b11};
         images = arr;
-        for (int i = 0; i < 11; i++) {
+        for (int i = 1; i < 12; i++) {
             arr[i].setTextColor(Color.WHITE);
         }
     }
