@@ -239,9 +239,6 @@
                 android:width="75dp"
                 android:height="75dp"/>
 
-
-
-
             </GridLayout>
 
         <Button
@@ -352,6 +349,7 @@
             android:layout_height="wrap_content"
             android:text="Submit"
             android:id="@+id/submit"
+            android:onClick="submit"
             android:layout_gravity="bottom"
             android:layout_alignParentBottom="true"
             android:layout_toLeftOf="@+id/exit"
