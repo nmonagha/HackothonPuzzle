@@ -277,6 +277,7 @@
                         android:id="@+id/button1"
                         android:background="@drawable/line1"
                         android:text="0"
+                        android:textColor="#FFFFFF"
                         android:onClick="button1" />
 
                     <Button
@@ -292,6 +293,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button3"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/phone"
                         android:text="0"
                         android:onClick="button3"/>
@@ -300,6 +302,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button4"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/lshape"
                         android:text="0"
                         android:onClick="button4"/>
@@ -307,6 +310,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button5"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/singlesquare"
                         android:text="0"
                         android:onClick="button5"/>
@@ -314,6 +318,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button6"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/truck"
                         android:text="0"
                         android:onClick="button6"/>
@@ -321,12 +326,14 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button7"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/foursquares"
                         android:text="0"
                         android:onClick="button7"/>
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
+                        android:textColor="#FFFFFF"
                         android:id="@+id/button8"
                         android:background="@drawable/tblock"
                         android:text="0"
@@ -334,6 +341,7 @@
                     <Button
                         android:layout_width="100dp"
                         android:layout_height="80dp"
+                        android:textColor="#FFFFFF"
                         android:id="@+id/button9"
                         android:background="@drawable/shortl"
                         android:text="0"
@@ -342,6 +350,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button10"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/shortline"
                         android:text="0"
                         android:onClick="button10"/>
@@ -349,6 +358,7 @@
                         android:layout_width="100dp"
                         android:layout_height="80dp"
                         android:id="@+id/button11"
+                        android:textColor="#FFFFFF"
                         android:background="@drawable/backlshape"
                         android:text="0"
                         android:onClick="button11"/>
